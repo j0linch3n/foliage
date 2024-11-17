@@ -48,7 +48,7 @@ html, body {
   background-size: cover;
   background-position: center;
   z-index: 1; /* Puts it behind other elements */
-  transition: background-image 0.5s ease; /* Smooth transition between images */
+  transition: background-image 0.1s ease; /* Smooth transition between images */
 }
 .aboutBox{
   width: 60px;
