@@ -5,6 +5,23 @@ $(document).ready(function() {
     const aboutBox = document.querySelector('.aboutBox');
     const aboutCard = document.querySelector('.aboutCard'); 
     const aboutClose = document.querySelector('.aboutClose'); 
+
+    const toggleCheckbox = document.getElementById('toggleBk');
+    const backgroundImageElement = document.getElementById('backgroundImage');
+    const toggleLabel = document.querySelector('.switch .change'); // The text span in the switch
+
+    // Add event listener for the checkbox change
+    toggleCheckbox.addEventListener('change', () => {
+        if (toggleCheckbox.checked) {
+            // Hide the background image
+            backgroundImageElement.style.display = 'none';
+            toggleLabel.setAttribute('data-text', 'Show');
+        } else {
+            // Show the background image
+            backgroundImageElement.style.display = 'block';
+            toggleLabel.setAttribute('data-text', 'Hide');
+        }
+    });
     
     const backgroundImages = [
         { src: "assets/pics/g1.webp", min: 0, max: 0.05 },
@@ -77,7 +94,6 @@ $(document).ready(function() {
     const colorRanges = [
         { color: "#265000", min: 0, max: 0.05 },
         { color: "#457519", min: 0.05, max: 0.10 },
-        // { color: "#8B9216", min: 0.10, max: 0.15 },
         { color: "#98B301", min: 0.10, max: 0.15 },
         { color: "#F0C01C", min: 0.15, max: 0.17 },
         { color: "#FFC72C", min: 0.17, max: 0.20 },
@@ -232,25 +248,25 @@ $(document).ready(function() {
     // Initial call to set up squares
     fillScreenWithSquares();
 
-    // Select the toggle button and background image element
-    const toggleButton = document.getElementById('toggleBackground');
-    const backgroundImageElement = document.getElementById('backgroundImage');
-    // Initial state for visibility
-    let isBackgroundVisible = true;
+//     // Select the toggle button and background image element
+//     const toggleButton = document.getElementById('toggleBackground');
+//     const backgroundImageElement = document.getElementById('backgroundImage');
+//     // Initial state for visibility
+//     let isBackgroundVisible = true;
 
-    // Add event listener for the toggle button
-    toggleButton.addEventListener('click', () => {
-        if (isBackgroundVisible) {
-            // Hide the background image
-            backgroundImageElement.style.display = 'none';
-            toggleButton.textContent = 'Show';
-        } else {
-            // Show the background image
-            backgroundImageElement.style.display = 'block';
-            toggleButton.textContent = 'Hide';
-        }
-        // Toggle the state
-        isBackgroundVisible = !isBackgroundVisible;
-});
-    
+//     // Add event listener for the toggle button
+//     toggleButton.addEventListener('click', () => {
+//         if (isBackgroundVisible) {
+//             // Hide the background image
+//             backgroundImageElement.style.display = 'none';
+//             toggleButton.textContent = 'Show';
+//         } else {
+//             // Show the background image
+//             backgroundImageElement.style.display = 'block';
+//             toggleButton.textContent = 'Hide';
+//         }
+//         // Toggle the state
+//         isBackgroundVisible = !isBackgroundVisible;
+// });
+
 });

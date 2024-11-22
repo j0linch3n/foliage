@@ -25,13 +25,15 @@ html, body {
   transform: rotateY(180deg);
   transition: transform 2s;
 }
-/* .bottomBox{
-  width:100%;
-  bottom:0px;
-  height: 30px;
-  position: absolute;
-  background-color: #FFE600; 
-} */
+.cursor{
+  display: block;
+  position: fixed;
+  background-color: #3896EF;
+  color: #471C00;
+  font-size: 13px;
+  border-radius: 5px;
+  z-index: 100;
+}
 .wrapper{
   display: flex;
   align-items: center;
@@ -125,14 +127,14 @@ html, body {
 .aboutBox:hover .aboutClose {
   color: #FFE500;
 }
-.toggle-btn{
+/* .toggle-btn{
   display: inline-block;
   width: 60px;
   height: 60px;
   background-color: #FFE600;
   position: absolute;
   right: 0px;
-  top: 60px;
+  bottom: 60px;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -146,21 +148,80 @@ html, body {
   font-size: 12pt;
   text-transform: uppercase;
   color: #471C00;
-}
+} */
+
 .toggle-btn:hover{
 color: #3896EF;
 }
-
-.slidecontainer{
-  width: 100%;
-  z-index: 100;
-  bottom:0px;
+.switch {
+  display: inline-block;
+  /* width: 120px;
+  height: 60px; */
+  width: 8.2%;
+  height: 38.5px;
+  z-index: 1000;
   position: absolute;
+  right: 0px;
+  bottom: 0px;
 }
-#dateSlider{
-  width:100%;
-  bottom:0px;
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.change{
   position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFE500;
+  -webkit-transition: .4s;
+  transition: .4s;
+  display: flex; /* Flexbox to center content */
+  justify-content: center;
+  align-items: center; /* Vertically center the text */
+}
+
+.change:before {
+  position: absolute;
+  content: attr(data-text); /* Dynamically set content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 51px;
+  left: 8px;
+  bottom: 2px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  font-size: 12px;
+  font-family: "Tiny5", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12pt;
+  text-transform: uppercase;
+  color: #471C00;
+}
+.change:hover:before{
+  color: #3896EF;
+}
+input:checked + .change {
+  background-color: #2196F3;
+}
+
+input:focus + .change {
+  /* box-shadow: 0 0 1px #2196F3; */
+}
+
+input:checked + .change:before {
+  -webkit-transform: translateX(51px);
+  -ms-transform: translateX(51px);
+  transform: translateX(51px);
 }
 #date{
   /* text-transform: uppercase; */
@@ -169,22 +230,38 @@ color: #3896EF;
   font-style: normal;
   font-weight: 700;
   /* bottom: 20px; */
-  bottom: 58px;
+  bottom: 20px;
   position: absolute;  
-  left: 50%;                    /* Move to the horizontal center */
+  left: 90px;                    /* Move to the horizontal center */
   transform: translateX(-50%);  /* Center-aligns the element */
   text-align: center;           /* Center text inside the element */
   color: #471C00;
   width:180px;
-  height:60px;
+  /* height:60px; */
+  height: 40px;
   background-color: #FFE600;
   display: inline-block;
   align-items: center;
   justify-content: center;
-  padding: 20px 0;
+  /* padding: 20px 0; */
+  padding: 10px 0;
   box-sizing: border-box;
   z-index: 100;
-
+}
+.slidecontainer{
+  display: inline-block;
+  width: 99%;
+  z-index: 100;
+  bottom:0px;
+  left: 0px;
+  position: absolute;
+}
+#dateSlider{
+  width:80%;
+  /* bottom: 20.5px; */
+  bottom: 0.5px;
+  left: 179px;
+  position: relative;
 }
 #logotype{
   font-family: "Pixelify Sans", sans-serif;
