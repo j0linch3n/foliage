@@ -150,9 +150,9 @@ html, body {
   color: #471C00;
 } */
 
-.toggle-btn:hover{
+/* .toggle-btn:hover{
 color: #3896EF;
-}
+} */
 .switch {
   display: inline-block;
   /* width: 120px;
@@ -232,11 +232,13 @@ input:checked + .change:before {
   /* bottom: 20px; */
   bottom: 20px;
   position: absolute;  
-  left: 90px;                    /* Move to the horizontal center */
+  /* left: 90px;   */
+  left: 6.3%;
   transform: translateX(-50%);  /* Center-aligns the element */
   text-align: center;           /* Center text inside the element */
   color: #471C00;
-  width:180px;
+  /* width:180px; */
+  width: 12.6%;
   /* height:60px; */
   height: 40px;
   background-color: #FFE600;
@@ -250,17 +252,18 @@ input:checked + .change:before {
 }
 .slidecontainer{
   display: inline-block;
-  width: 99%;
+  width: 100%;
   z-index: 100;
   bottom:0px;
   left: 0px;
   position: absolute;
 }
 #dateSlider{
-  width:80%;
+  width:79.1%;
   /* bottom: 20.5px; */
   bottom: 0.5px;
-  left: 179px;
+  /* left: 179px; */
+  left: 12.5%;
   position: relative;
 }
 #logotype{
