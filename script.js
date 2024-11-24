@@ -66,19 +66,19 @@ $(document).ready(function() {
         "The deep green leaves continue to thrive, providing a striking contrast against the blue sky",//9.7
         "The lush foliage creates a serene atmosphere, perfect for leisurely strolls through the neighborhood",//9.8
         "The warm summer sun continues to bathe the leaves in vibrant green hues",//9.9
-        "6",//9.10
+        "The trees are largely unchanged, standing tall and green against a bright, cloudless sky",//9.10
         "Bright green leaves shimmer in the sunlight, reflecting the warmth of late summer days",//9.11
-        "8",//9.12
-        "CLEAR SKY, DAY +79°F, Night +57°F",//9.13
+        "The trees hold their summer lushness, though the air feels slightly less humid",//9.12
+        "The foliage remains vibrant, with the warm air gently moving the leafy branches",//9.13
         "Mostly green leaves, with a few early changers showing hints of yellow",//9.14
-        "11",//9.15
+        "The oaks and maples hold onto their green, but the air feels crisper, promising autumn’s touch",//9.15
         " The landscape remains predominantly green, but whispers of fall are beginning to emerge",//9.16
         "The first signs of fall are evident as scattered trees show early signs of color change",//9.17
         "Leaves on certain elms start to turn a soft shade of yellow, adding warmth to the green backdrop",//9.18
         "The morning light catches the subtle color changes, revealing soft yellows and light oranges",//9.19
         "Bright yellows dominate some areas, creating a cheerful contrast against remaining greens",//9.20
-        "17",//9.21
-        "18",//9.22
+        "The trees glow brightest in the morning light, their colors intensifying against the crisp blue sky",//9.21
+        "The flaxen leaves catch the afternoon light, transforming the Hill into a shimmering haven",//9.22
         "As autumn unfolds, the vibrant yellow foliage of birch and aspen trees adds a cheerful splash of color to the landscape",//9.23
         "Elm trees begin to transform, adding golden tones to the College Hill landscape",//9.24
         "Cooler nights accelerating the color transition",//9.25
@@ -86,78 +86,78 @@ $(document).ready(function() {
         "Golden-yellow leaves blanket the ground, inviting children to jump into piles and celebrate the joys of autumn",//9.27
         "Cooler temperatures accelerate the color transformation, with more trees showing autumn hues",//9.28
         "The overall palette shifts towards warmer tones as more trees embrace autumn colors",//9.29
-        "26",//9.30
+        "The fall colors seem to shift and change with the light, keeping the landscape in a constant state of seasonal magic",//9.30
         "The first hints of orange begin to emerge on maple trees along Benefit Street",//10.1
-        "28",//10.2
-        "29",//10.3
+        "Their vibrant orange leaves create a cheerful contrast against the fading greenery, lighting up the landscape",//10.2
+        "The orange trees look almost golden in the afternoon light, their leaves shimmering like flames",//10.3
         "A few red maples are beginning to hint at their future brilliance with touches of red",//10.4
         "Orange leaves flutter gently in the crisp fall air, adding a cheerful touch to the landscape of College Hill",//10.5
-        "32",//10.6
-        "33",//10.7
-        "34",//10.8
+        "Blood-orange tones bleed through the trees, adding warmth and vitality to the cool autumn air",//10.6
+        "Trees with shades of burnt sienna stand tall, their leaves a rich and inviting tribute to autumn",//10.7
+        "A canopy of persimmon-colored leaves sways gently in the breeze, casting a warm, amber light on the paths below",//10.8
         "The neighborhood begins to look like a canvas painted with reds, oranges, and yellows",//10.9
-        "36",//10.10
-        "37",//10.11
-        "38",//10.12
+        "The colors spread wider, and some trees are fully dressed in autumn’s fiery embrace",//10.10
+        "The fall colors blend seamlessly, with golden yellows flowing into burnt oranges and deep reds",//10.11
+        "Some trees flaunt bold, saturated reds, while others glow softly in shades of orange and yellow, adding layers of contrast",//10.12
         "The warm orange shades of autumn foliage invite passersby to pause and appreciate the fleeting beauty of the season",//10.13
         "Vibrant reds emerging on sugar maples throughout the neighborhood",//10.14
-        "Red maples reached 50% color change",//10.15
-        "42",//10.16
-        "43",//10.17
-        "44",//10.18
+        "The foliage hits its stride, with the perfect mix of vivid reds and yellows dotting the campus",//10.15
+        "Leaves in shades of honey-yellow and coral cover the trees, creating a luminous, almost glowing effect",//10.16
+        "Goldenrod and coral hues merge in the canopy, creating a dazzling display that captures autumn’s heart",//10.17
+        "A single tree might hold multiple shades at once, its branches transitioning from green to fiery red in an elegant gradient",//10.18
         "Brilliant reds and oranges dominate the landscape, creating a breathtaking autumn scene",//10.19
-        "46",//10.20
-        "47",//10.21
-        "48",//10.22
-        "49",//10.23
+        "Deep garnet leaves ripple in the breeze, their jewel-like tones a stunning highlight of the season",//10.20
+        "A burst of vermilion dominates the view, its vivid intensity capturing the full spirit of fall",//10.21
+        "The wine-colored leaves cluster thickly on the branches, adding a rich, dramatic flair to the autumn landscape",//10.22
+        "The trees begin shedding more leaves, and the colors grow deeper and more saturated",//10.23
         "Sunlight illuminates the rich palette of autumn colors across College Hill",//10.24
         "College Hill at its autumn finest, with a kaleidoscope of reds, oranges, and yellows",//10.25
-        "52",//10.26
-        "53",//10.27
+        "A burst of vermilion dominates the view, its vivid intensity capturing the full spirit of fall",//10.26
+        "The carmine-tinted trees seem to radiate energy, their vibrant hues brightening the entire Hill",//10.27
         "Post-peak conditions begin, with some trees starting to lose leaves",//10.28
-        "55",//10.29
-        "56",//10.30
+        "Reds dominate the scene, while late-turning trees hold on to their green for a little longer",//10.29
+        "A canopy of scarlet and claret leaves creates a vibrant corridor, alive with seasonal energy",//10.30
         "Halloween is marked by a mix of remaining fall colors and the first hints of winter's approach",//10.31
-        "58",//11.1
-        "Nighttime temperatures dipping into low 50s, triggering more color change",//11.2
-        "60",//11.3
-        "61",//11.4
-        "62",//11.5
-        "63",//11.6
+        "The ruby-hued canopy creates a striking contrast against the softer yellows and oranges around it",//11.1
+        "Cherry-hued leaves fall gently to the ground, their warmth softening the crisp, cool landscape",//11.2
+        "Hints of mahogany peek through the crimson canopy, adding depth and richness to the fiery display",//11.3
+        "The crimson canopy creates a striking contrast against the deep blue sky, painting College Hill in bold, dramatic tones",//11.4
+        "The vibrant foliage dances in the wind, flashing their autumn tones like a final encore before winter arrives",//11.5
+        "As the sun sets, the red leaves take on a deeper, almost wine-like hue, their beauty amplified in the golden light",//11.6
         "Late-season reds intensifying on remaining foliage",//11.7
-        "65",//11.8
+        "Clusters of scarlet leaves ripple in the breeze, making the red trees seem alive with energy and warmth",//11.8
         "The first hints of leaf drop appear as colors start to mute",//11.9
         "Late-season maples hold onto their rich, deep red colors, providing a final burst of autumn beauty",//11.10
         "Autumn colors begin to transition to deeper, more subdued tones",//11.11
-        "Leaf drop accelerating, but pockets of vibrant color persist",//11.12
+        "The first signs of fading appear as leaves dry and pale, signaling the season's turn",//11.12
         "The landscape transforms into a muted palette of browns, bronzes, and deep reds as most trees begin to shed their leaves",//11.13
         "Scattered leaves dance across the sidewalks of Benefit Street, creating a rustling carpet of autumn remnants",//11.14
-        "72",//11.15
+        "Leaf drop accelerating, but pockets of vibrant color persist",//11.15
         "Pockets of color remain on some evergreens, providing a touch of green amidst the browns",//11.16
         "The vibrant reds and oranges of autumn have faded, leaving behind muted tones of gray and brown",//11.17
         "Oaks and some maple varieties retain their deeper, more persistent autumn colors",//11.18
-        "76",//11.19
+        "A soft breeze sends showers of leaves floating down, scattering color across the streets",//11.19
         "The landscape transitions to a more skeletal view as trees continue to lose their leaves",//11.20
         "Wind and occasional rain accelerate the leaf-dropping process across College Hill",//11.21
         "Thanksgiving approaches with trees showing only traces of their former autumn glory",//11.22
         "The landscape starts to shift from peak colors to more brownish and muted hues",//11.23
-        "Thanksgiving Day brings a mostly bare landscape with occasional bursts of deep brown and rust colors",//11.24
+        "The trees along College Hill thin out as more leaves fall to the brick paths",//11.24
         "The remaining leaves seem to cling more desperately to branches as winter approaches",//11.25
         "Fewer bright colors remain, with more trees showing signs of approaching winter",//11.26
         "Scattered leaves of deep bronze and russet continue to decorate the urban landscape",//11.27
-        "The last remnants of fall color linger on a few stubborn trees, primarily oaks and maples",//11.28
+        "Thanksgiving Day brings a mostly bare landscape with occasional bursts of deep brown and rust colors",//11.28
         "Late autumn colors deepen, with remaining leaves in rich browns and crimsons",//11.29
         "Crisp winds start to strip away the last of the colorful foliage, revealing the intricate branch structures",//11.30
         "College Hill prepares for winter, with trees now mostly bare and revealing their elegant, skeletal forms",//12.1
-        "89",//12.2
+        "The last remnants of fall color linger on a few stubborn trees, primarily oaks and maples",//12.2
         "Scattered pockets of color remain amidst largely bare trees",//12.3
-        "91",//12.4
+        "Fallen leaves gather in piles, and the remaining foliage is now a pale yellow and rust color",//12.4
         "The once colorful landscape is now dominated by bare branches, preparing for winter's arrival",//12.5
-        "93",//12.6
-        "94",//12.7
-        "95",//12.8
+        "Late-fall sunlight filters through empty branches, creating delicate shadows",//12.6
+        "The trees are nearly bare, with only a few patches of color clinging stubbornly to the branches",//12.7
+        "Bare branches dominate College Hill, but the fallen leaves still add autumnal charm",//12.8
         "Final leaves clinging to branches, marking the end of fall foliage season",//12.9
-        "97",//12.10
+        "A few lingering golden leaves flutter on the trees, a last echo of autumn’s vibrancy",//12.10
         " The transition to winter is complete, with only traces of autumn’s glory visible in the landscape",//12.11
         // Add more sentences as needed
     ];

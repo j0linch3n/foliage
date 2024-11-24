@@ -75,11 +75,12 @@ html, body {
   background-color: #FFE600;
   border-radius: 1px;
   position: relative;
-  padding: 50px;
+  /* padding: 50px; */
   box-sizing: border-box; /* Ensures padding is included within the width/height */
   z-index: 1000;
   transform-origin: center;
   transition: transform 500ms ease, opacity 500ms ease;
+  padding: 50px 75px 50px 75px;
 }
 
 [class^="cube-"]{
@@ -180,6 +181,8 @@ color: #3896EF;
   display: flex; /* Flexbox to center content */
   justify-content: center;
   align-items: center; /* Vertically center the text */
+  border-top:  2px solid #51b1ff;
+  border-left:  1.5px solid #51b1ff;
 }
 
 .change:before {
@@ -188,10 +191,10 @@ color: #3896EF;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 34px;
+  height: 32px;
   width: 51px;
   left: 8px;
-  bottom: 2px;
+  bottom: 3px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
@@ -245,6 +248,8 @@ input:checked + .change:before {
   padding: 10px 0;
   box-sizing: border-box;
   z-index: 100;
+  border-top:  1px solid #51b1ff;
+  border-right:  1px solid #51b1ff;
 }
 .slidecontainer{
   display: inline-block;
@@ -271,7 +276,8 @@ input:checked + .change:before {
   z-index: 1000;
   justify-content: center;
   text-align: center;
-
+  border-bottom: 1px solid #51b1ff;
+  /* border-top: 2px solid #51b1ff; */
 }
 .data{
   font-family: "Funnel Display", sans-serif;
@@ -333,7 +339,7 @@ input:checked + .change:before {
     #FFFFFF 92%,
     #FFFFFF 100%
     );
-    outline: solid #2ED9FF;
+    outline: solid #51b1ff;
     opacity: 1;
     -webkit-transition: .2s;
     transition: opacity .2s;
@@ -346,14 +352,18 @@ input:checked + .change:before {
   .slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
-    width: 45px;
+    /* width: 45px;
+    height: 65px; */
+    width:30px;
     height: 65px;
-    background: #2ED9FF;
+    background: #00c3fe;
     cursor: pointer;
   }
   
   .slider::-moz-range-thumb {
-    width: 45px;
+    /* width: 45px;
+    height: 65px; */
+    width:30px;
     height: 65px;
     cursor: pointer;
   }
@@ -406,7 +416,7 @@ input:checked + .change:before {
     font-family: "Funnel Display", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 11pt;
+    font-size: 10.7pt;
     line-height: 1.4;
     color: #471C00;
     padding-bottom: 15px;
