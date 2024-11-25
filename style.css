@@ -130,7 +130,7 @@ html, body {
   /* width: 120px;
   height: 60px; */
   width: 8.2%;
-  height: 40px;
+  height: 41px;
   z-index: 1000;
   position: absolute;
   right: 0px;
@@ -247,7 +247,7 @@ input:checked + .change:before {
   height: 22px;
   background-color: #FFE500;
   position: absolute;
-  bottom: 40px;
+  bottom: 41px;
   z-index: 1000;
   justify-content: center;
   text-align: center;
