@@ -298,7 +298,7 @@ function updateSquaresVisibility() {
     let randomColorPercent = 0.1; // Default 10%
     if (visibilityPercent >= 0.9) {
         const whiteRangePercent = (visibilityPercent - 0.9) / 0.1; // Scale between 0 and 1
-        randomColorPercent = 0.1 - (0.08 * whiteRangePercent); // Decrease from 10% to 2%
+        randomColorPercent = 0.1 - (0.09 * whiteRangePercent); // Decrease from 10% to 1%
     }
 
     const randomColorCount = Math.floor(visibleSquaresCount * randomColorPercent); // Scaled count of random colors
