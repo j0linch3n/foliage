@@ -191,7 +191,7 @@ color: #3896EF;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 32px;
+  height: 40px;
   width: 51px;
   left: 8px;
   bottom: 3px;
@@ -262,7 +262,7 @@ input:checked + .change:before {
 #dateSlider{
   width:79.1%;
   /* bottom: 20.5px; */
-  bottom: 0.5px;
+  bottom: 0px;
   /* left: 179px; */
   left: 12.5%;
   position: relative;
@@ -272,7 +272,7 @@ input:checked + .change:before {
   height: 22px;
   background-color: #FFE500;
   position: absolute;
-  bottom: 60px;
+  bottom: 40px;
   z-index: 1000;
   justify-content: center;
   text-align: center;
