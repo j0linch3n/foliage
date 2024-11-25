@@ -319,7 +319,7 @@ input:checked + .change:before {
 .slider {
     -webkit-appearance: none;
     width: 100%;
-    height: 56px;
+    height: 40px;
     /* background: linear-gradient(0.25turn, #BDF848, #28CE1C,#FFE600,#EF6204,#E31E00,#341500,#000000); */
     background: linear-gradient(0.25turn, 
     #265000 5%, 
@@ -355,7 +355,7 @@ input:checked + .change:before {
     /* width: 45px;
     height: 65px; */
     width:30px;
-    height: 65px;
+    height: 40px;
     background: #00c3fe;
     cursor: pointer;
   }
@@ -364,7 +364,7 @@ input:checked + .change:before {
     /* width: 45px;
     height: 65px; */
     width:30px;
-    height: 65px;
+    height: 40px;
     cursor: pointer;
   }
 
