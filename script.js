@@ -385,26 +385,4 @@ function updateSquaresVisibility() {
 
     // Initial call to set up squares
     fillScreenWithSquares();
-
-//     // Select the toggle button and background image element
-//     const toggleButton = document.getElementById('toggleBackground');
-//     const backgroundImageElement = document.getElementById('backgroundImage');
-//     // Initial state for visibility
-//     let isBackgroundVisible = true;
-
-//     // Add event listener for the toggle button
-//     toggleButton.addEventListener('click', () => {
-//         if (isBackgroundVisible) {
-//             // Hide the background image
-//             backgroundImageElement.style.display = 'none';
-//             toggleButton.textContent = 'Show';
-//         } else {
-//             // Show the background image
-//             backgroundImageElement.style.display = 'block';
-//             toggleButton.textContent = 'Hide';
-//         }
-//         // Toggle the state
-//         isBackgroundVisible = !isBackgroundVisible;
-// });
-
 });

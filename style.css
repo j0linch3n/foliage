@@ -229,7 +229,7 @@ input:checked + .change:before {
   font-style: normal;
   font-weight: 700;
   /* bottom: 20px; */
-  bottom: 20px;
+  bottom: 0px;
   position: absolute;  
   /* left: 90px;   */
   left: 6.3%;
