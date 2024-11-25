@@ -156,8 +156,8 @@ html, body {
   display: flex; /* Flexbox to center content */
   justify-content: center;
   align-items: center; /* Vertically center the text */
-  border-top:  2px solid #51b1ff;
-  border-left:  1.5px solid #51b1ff;
+  border-top:  0.5px solid #51b1ff;
+  border-left:  0.5px solid #51b1ff;
 }
 
 .change:before {
@@ -214,7 +214,7 @@ input:checked + .change:before {
   /* width:180px; */
   width: 12.6%;
   /* height:60px; */
-  height: 40px;
+  height: 41px;
   background-color: #FFE500;
   display: inline-block;
   align-items: center;
@@ -223,8 +223,8 @@ input:checked + .change:before {
   padding: 10px 0;
   box-sizing: border-box;
   z-index: 100;
-  border-top:  1px solid #51b1ff;
-  border-right:  1px solid #51b1ff;
+  border-top:  0.5px solid #51b1ff;
+  border-right:  0.5px solid #51b1ff;
 }
 .slidecontainer{
   display: inline-block;
