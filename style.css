@@ -24,6 +24,7 @@ html, body {
 .logo:hover {
   transform: rotateY(180deg);
   transition: transform 2s;
+  border-radius: 0 70px;
 }
 .cursor{
   display: block;
@@ -69,6 +70,9 @@ html, body {
   transition: transform 500ms ease, opacity 500ms ease;
   z-index: 100;
 }
+/* .aboutBox:hover {
+  border-radius: 0 50px;
+} */
 .aboutCard{
   width: 720px;
   height: 270px;
@@ -355,12 +359,16 @@ input:checked + .change:before {
   flex-wrap: wrap;
   z-index: 1; /* Behind other elements */
 }
-
 /* Square styling */
 .square {
   width: 30px;
   height: 30px;
   display: inline-block;
+}
+.square:hover {
+  transform: rotateY(180deg);
+  transition: transform 1s;
+  border-radius: 0 70px;
 }
 
   h2{
