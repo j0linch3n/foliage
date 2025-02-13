@@ -181,13 +181,15 @@ $(document).ready(function() {
     }
 
     // Initialize slider and date display
+    const fixedYear = 2024;
     const today = new Date();
+    today.setFullYear(fixedYear);
     const dayOfYear = getDayOfYear(today);
     const minDay = 248;
     const maxDay = 346;
 
     dateSlider.value = (dayOfYear >= minDay && dayOfYear <= maxDay) ? dayOfYear : minDay;
-    output.innerHTML = formatDate(getDateFromDay(today.getFullYear(), dateSlider.value));
+    output.innerHTML = formatDate(getDateFromDay(fixedYear, dateSlider.value));
 
     // Set initial sentence based on the current day of the year
     const initialSentenceIndex = dayOfYear - minDay;
@@ -362,7 +364,7 @@ function updateSquaresVisibility() {
 
     // Call this function whenever the slider changes
     dateSlider.oninput = function() {
-        const selectedDate = getDateFromDay(today.getFullYear(), parseInt(this.value));
+        const selectedDate = getDateFromDay(fixedYear, parseInt(this.value));
         output.innerHTML = formatDate(selectedDate);
         updateSquaresVisibility();  // Adjust visibility based on slider
         updateBackgroundImage();   // Update the background image
